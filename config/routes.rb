@@ -6,5 +6,6 @@ Rails.application.routes.draw do
   get '/bar', to: 'foo#bar'
   get '/baz', to: 'foo#baz'
   get '/signup', to: 'users#new'
+	resources :users
 end
 
